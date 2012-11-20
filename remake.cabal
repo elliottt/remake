@@ -10,8 +10,7 @@ cabal-version:       >=1.8
 
 executable remake
   main-is:             Remake.hs
-  build-depends:       async,
-                       base,
+  build-depends:       base,
                        directory,
                        filepath,
                        hinotify,
