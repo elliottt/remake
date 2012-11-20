@@ -1,0 +1,22 @@
+name:                remake
+version:             0.1.0.0
+license:             BSD3
+license-file:        LICENSE
+author:              Trevor Elliott
+maintainer:          awesomelyawesome@gmail.com
+category:            Development
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable remake
+  main-is:             Remake.hs
+  build-depends:       async,
+                       base,
+                       directory,
+                       filepath,
+                       hinotify,
+                       process,
+                       regex-base,
+                       regex-pcre
+  hs-source-dirs:      src
+  ghc-options:         -Wall -threaded
